@@ -1,5 +1,5 @@
 {
-  "name": "gulp",
+  "name": "gulp-test",
   "version": "1.0.0",
   "description": "A sandbox for all my gulp thingamajiggers.",
   "main": "index.js",
