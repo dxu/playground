@@ -1,14 +1,14 @@
-var gulp = require('gulp'),
-    gutil  = require('gulp-util'),
-    coffee = require('gulp-coffee');
+var gulp = require('gulp')
+    , gutil  = require('gulp-util')
+    , coffee = require('gulp-coffee')
+    , rtaskDir = require('require-dir')('./gulp-tasks')
 
 
 
 // sample coffee task
-gulp.task('coffee', function(){
-  gulp.src('src/sites/**/*.coffee')
-    .pipe(coffee().on('error', gutil.log))
-    .pipe(gulp.dest('./dist/'));
+gulp.task('default', function(){
 });
+
+gulp.task
 
 
