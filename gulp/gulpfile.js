@@ -4,8 +4,9 @@ var gulp = require('gulp'),
 
 
 
+// sample coffee task
 gulp.task('coffee', function(){
-  gulp.src('sites/**/*.coffee')
+  gulp.src('src/sites/**/*.coffee')
     .pipe(coffee().on('error', gutil.log))
     .pipe(gulp.dest('./dist/'));
 });
